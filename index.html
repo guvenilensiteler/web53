@@ -411,6 +411,24 @@
                 </a>
             </div>
         </div>
+        <a href="javascript:document.querySelector('a[site=mersobahis]').click();">
+            <div class="alt-yeni-bannerlar" style="
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                gap: 10px;
+                padding: 10px 0;">
+                <img src="1.jfif" style="
+                    width: 100%;
+                    border-radius: 30px;">
+                <img src="2.jfif" style="
+                    width: 100%;
+                    border-radius: 30px;">
+                <img src="3.jfif" style="
+                    width: 100%;
+                    border-radius: 30px;">
+            </div>
+        </a>
+
         <div class="row normal"  :class="['cat' + list.id, 'banner' + list.grid]" style="display: none;">
             <div class="col" v-if="_.find(client.sites, ['site', site.site])" v-for="(site,siteKey) in _.orderBy(list.sites, [item => parseInt(item.sort)], ['asc'])">
                 <a target="_blank"  :href="_.find(client.sites, ['site', site.site]).url" class="item" :style="'--site-color: ' + _.find(client.sites, ['site', site.site]).color">
