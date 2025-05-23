@@ -1,0 +1,675 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Güvenilen Siteler</title>
+    <link rel="stylesheet" href="https://bolbonusverensiteler.com/css/new.css?v5.47">
+    <link rel="shortcut icon" href="https://bolbonusverensiteler.com/favicon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.1/css/swiper.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-49YTF9MXEJ"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-49YTF9MXEJ');
+    </script>
+
+    <script>
+        // HTTPS Sorunu Fix
+        if (document.URL.startsWith('http://')) {
+            window.location.href = document.URL.replace('http://','https://');
+        }
+    </script>
+
+</head>
+<style>
+    .row.strip h1 {
+        background: #391b5b !important;
+    }
+
+    div#app-v-page.is-fixed .strip {
+        background: #1d053d;
+    }
+    .fix-side .vip svg circle,
+    .vip .item .vip svg circle {
+        fill: #360851 !important;
+    }
+    .fix-side .vip,
+    .vip .item .vip {
+        background: none !important;
+        width: auto;
+    }
+    .fix-side .vip svg g,
+    .vip .item .vip svg g {
+        fill: var(--site-color) !important;
+    }
+    .fix-side .vip svg,
+    .vip .item .vip svg {
+        width: 50px !important;
+        height: 60px !important;
+    }
+    #app-v-page.mobile .vip .item svg{
+        top: 20px !important;
+    }
+
+    .vip-link{
+        font-weight: bold;
+        font-size: 20px;
+        height: 50px;
+        margin: 5px 0px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 12px 10px;
+        border-radius: 20px;
+        background: linear-gradient(71deg, #f7a517 0%, #48006c 50%, #f7a517 100%);
+        border: 1px solid #f09d20;
+    }
+    .vip-link svg{
+        fill: #ffb300;
+        margin-right: 5px;
+        width: 20px;
+        height: 20px;
+    }
+    .fix-side,
+    .item{
+        border: 2px solid var(--site-color);
+    }
+    body #app-v-page.mobile .container{
+        width: auto !important;
+    }
+    .mobile .row.vip .col {
+        width: 50% !important;
+    }
+    body{
+        font-family: "Oswald", sans-serif;
+    }
+    header{
+        background: linear-gradient(71deg, #140933 0%,#2d008b 30%, #210f43 100%);
+    }
+    #app-v-page.mobile .bottom-fixed .center h1 {margin:0 15px !important; font-size: 14px;margin: 0px;}
+    #app-v-page.mobile .bottom-fixed .center p {display:none}
+    #app-v-page.mobile .bottom-fixed {
+        background:#2d0f25;
+        padding:0 20px !important;
+    }
+
+    div.container {
+        padding-top: 2px !important;
+    }
+
+    .notyf__ripple {
+        /*
+        background: linear-gradient(45deg, rgb(239, 253, 33), rgb(255, 0, 0)) !important;
+        */
+        background: linear-gradient(45deg, rgb(0 0 0), rgb(0 0 0)) !important;
+    }
+    .notyf__message {
+        margin: auto;
+        text-align: center;
+        color: black;
+    }
+    .notyf__toast {
+        opacity: 0.8 !important;
+    }
+    .notyf__wrapper {
+        padding-top: 4px;
+        padding-bottom: 8px;
+    }
+</style>
+<style>
+    /*
+    @media (min-width: 375px) {
+        .alt-baslik {
+            font-size: 8.2px !important;
+        }
+    }
+    @media (min-width: 390px) {
+        .alt-baslik {
+            font-size: 8.5px !important;
+        }
+    }
+    @media (min-width: 414px) {
+        .alt-baslik {
+            font-size: 9.2px !important;
+        }
+    }
+    @media (min-width: 430px) {
+        .alt-baslik {
+            font-size: 9.5px !important;
+        }
+    }
+    @media (min-width: 540px) {
+        .alt-baslik {
+            font-size: 12px !important;
+        }
+    }
+    @media (min-width: 768px) {
+        .alt-baslik {
+            font-size: 13.5px !important;
+        }
+    }
+    */
+</style>
+
+<style>
+    .text-shadow {
+        text-shadow: 2px 2px 10px #2962ff;
+        transition: all 0.5s ease-in-out;
+        -webkit-animation: flicker 0.5s ease-in-out infinite alternate;
+        animation: flicker 0.5s ease-in-out infinite alternate;
+    }
+
+    @-webkit-keyframes flicker {
+        0% {
+            opacity: 0.5;
+            text-shadow: 2px 2px 10px #2962ff;
+        }
+        100% {
+            opacity: 1;
+            text-shadow: 2px 2px 20px #2962ff;
+        }
+    }
+
+    @keyframes flicker {
+        0% {
+            opacity: 0.5;
+            text-shadow: 2px 2px 10px #2962ff;
+        }
+        100% {
+            opacity: 1;
+            text-shadow: 2px 2px 20px #2962ff;
+        }
+    }
+</style>
+
+<style>
+    /* mersobahis .png uzantısında .gif kullandığımız için ve gif'in kenarındaki gereksiz padding'ten dolayı küçük gözüküyordu. o yüzden böyle yapıyoruz. 21.05.2025 */
+    a[site="mersobahis"] .left img {
+        transform: scale(1.24);
+    }
+</style>
+
+
+<body>
+<div id="preloader">
+    <svg height="300" width="300">
+
+        <circle class="outer" cx="150" cy="150" r="50" />
+
+        <circle class="inner" cx="150" cy="150" r="50">
+
+            <animateTransform attributeType="xml"
+                              attributeName="transform"
+                              type="rotate"
+                              from="0 150 150"
+                              to="360 150 150"
+                              dur="2s"
+                              repeatCount="indefinite"/>
+        </circle>
+
+    </svg>
+</div>
+<div id="app-v-page" :class="{ 'mobile' : is_mobile}" style="display: none;">
+    <!--
+    <div class="row strip" v-if="!loading">
+        <h1>
+            <svg viewBox="-1 0 19 19" class="cf-icon-svg"><path d="M16.417 9.583A7.917 7.917 0 1 1 8.5 1.666a7.917 7.917 0 0 1 7.917 7.917zm-3.08-1.993-1.472-.174-1.485-.176-1.247-2.704c-.345-.747-.908-.747-1.253 0L6.633 7.24l-1.485.176-1.471.174c-.817.097-.991.633-.387 1.192l1.088 1.006 1.098 1.015-.292 1.467-.289 1.453c-.16.807.296 1.138 1.014.737l2.598-1.455 2.598 1.455c.717.401 1.173.07 1.013-.737l-.58-2.92 1.097-1.015 1.089-1.006c.604-.559.43-1.095-.387-1.192z"/></svg>
+            ÖZEL SİTELER</h1>
+        <div class="ticker-wrap">
+            <div class="ticker">
+                <div class="ticker__item">
+                    <a target="_blank" v-if="_.find(client.sites, ['site', site.site])" v-for="(site,siteKey) in _.orderBy(strip.sites, [item => parseInt(item.sort)], ['asc'])"  :href="_.find(client.sites, ['site', site.site]).url" class="item" :style="'--site-color: ' + _.find(client.sites, ['site', site.site]).color">
+                        <img :src="client.cdn_url + _.find(client.sites, ['site', site.site]).site + '.png'" width="150">
+                        <div class="button">GİRİŞ YAP</div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    -->
+    <div class="container" v-if="!loading">
+        <!--
+        <div id="swiper">
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <a target="_blank" :href="_.find(client.sites, ['site', slider.site]).url" :class="['cat' + slider.id, 'banner' + slider.grid]" v-for="(slider,sliderKey) in _.orderBy(slider.sites, [item => parseInt(item.sort)], ['asc'])" target="_blank" class="swiper-slide"><img :src="_.find(client.sites, ['site', slider.site]).slider_img" width="100%"></a>
+                </div>
+            </div>
+        </div>
+        -->
+
+        <!--
+        <a target="_blank" v-if="leftFix.sites[0]" :style="'--site-color: ' + _.find(client.sites, ['site', leftFix.sites[0].site]).color" :href="_.find(client.sites, ['site', leftFix.sites[0].site]).url" class="fix-side left">
+            <div class="top"><img :src="client.cdn_url + _.find(client.sites, ['site', leftFix.sites[0].site]).site.replace(' DUPLICATE', '') + '.png'"></div>
+            <div class="bottom"><img :src="client.cdn_url + _.find(client.sites, ['site', leftFix.sites[0].site]).site.replace(' DUPLICATE', '') + '.png'"></div>
+            <div class="center">
+                <div class="vip">
+                    <svg viewBox="0 0 24 24" fill="none"> <path d="M9.15316 5.40838C10.4198 3.13613 11.0531 2 12 2C12.9469 2 13.5802 3.13612 14.8468 5.40837L15.1745 5.99623C15.5345 6.64193 15.7144 6.96479 15.9951 7.17781C16.2757 7.39083 16.6251 7.4699 17.3241 7.62805L17.9605 7.77203C20.4201 8.32856 21.65 8.60682 21.9426 9.54773C22.2352 10.4886 21.3968 11.4691 19.7199 13.4299L19.2861 13.9372C18.8096 14.4944 18.5713 14.773 18.4641 15.1177C18.357 15.4624 18.393 15.8341 18.465 16.5776L18.5306 17.2544C18.7841 19.8706 18.9109 21.1787 18.1449 21.7602C17.3788 22.3417 16.2273 21.8115 13.9243 20.7512L13.3285 20.4768C12.6741 20.1755 12.3469 20.0248 12 20.0248C11.6531 20.0248 11.3259 20.1755 10.6715 20.4768L10.0757 20.7512C7.77268 21.8115 6.62118 22.3417 5.85515 21.7602C5.08912 21.1787 5.21588 19.8706 5.4694 17.2544L5.53498 16.5776C5.60703 15.8341 5.64305 15.4624 5.53586 15.1177C5.42868 14.773 5.19043 14.4944 4.71392 13.9372L4.2801 13.4299C2.60325 11.4691 1.76482 10.4886 2.05742 9.54773C2.35002 8.60682 3.57986 8.32856 6.03954 7.77203L6.67589 7.62805C7.37485 7.4699 7.72433 7.39083 8.00494 7.17781C8.28555 6.96479 8.46553 6.64194 8.82547 5.99623L9.15316 5.40838Z"/> </svg>
+                    VIP
+                </div>
+                <div class="logo">
+                    <img :src="client.cdn_url + _.find(client.sites, ['site', leftFix.sites[0].site]).site.replace(' DUPLICATE', '') + '.png'">
+                </div>
+                <div class="promo">
+                    <span>{{ _.find(client.sites, ['site', leftFix.sites[0].site]).desc[0] }}</span> <br> {{ _.find(client.sites, ['site', leftFix.sites[0].site]).desc[1] }}
+                </div>
+                <div class="button">Giriş Yap</div>
+            </div>
+        </a>
+        -->
+
+        <!--
+        <a target="_blank" v-if="rightFix.sites[0]" :style="'--site-color: ' + _.find(client.sites, ['site', rightFix.sites[0].site]).color" :href="_.find(client.sites, ['site', rightFix.sites[0].site]).url" class="fix-side right">
+            <div class="top"><img :src="client.cdn_url + _.find(client.sites, ['site', rightFix.sites[0].site]).site.replace(' DUPLICATE', '') + '.png'"></div>
+            <div class="bottom"><img :src="client.cdn_url + _.find(client.sites, ['site', rightFix.sites[0].site]).site.replace(' DUPLICATE', '') + '.png'"></div>
+            <div class="center">
+                <div class="vip">
+                    <svg viewBox="0 0 24 24" fill="none"> <path d="M9.15316 5.40838C10.4198 3.13613 11.0531 2 12 2C12.9469 2 13.5802 3.13612 14.8468 5.40837L15.1745 5.99623C15.5345 6.64193 15.7144 6.96479 15.9951 7.17781C16.2757 7.39083 16.6251 7.4699 17.3241 7.62805L17.9605 7.77203C20.4201 8.32856 21.65 8.60682 21.9426 9.54773C22.2352 10.4886 21.3968 11.4691 19.7199 13.4299L19.2861 13.9372C18.8096 14.4944 18.5713 14.773 18.4641 15.1177C18.357 15.4624 18.393 15.8341 18.465 16.5776L18.5306 17.2544C18.7841 19.8706 18.9109 21.1787 18.1449 21.7602C17.3788 22.3417 16.2273 21.8115 13.9243 20.7512L13.3285 20.4768C12.6741 20.1755 12.3469 20.0248 12 20.0248C11.6531 20.0248 11.3259 20.1755 10.6715 20.4768L10.0757 20.7512C7.77268 21.8115 6.62118 22.3417 5.85515 21.7602C5.08912 21.1787 5.21588 19.8706 5.4694 17.2544L5.53498 16.5776C5.60703 15.8341 5.64305 15.4624 5.53586 15.1177C5.42868 14.773 5.19043 14.4944 4.71392 13.9372L4.2801 13.4299C2.60325 11.4691 1.76482 10.4886 2.05742 9.54773C2.35002 8.60682 3.57986 8.32856 6.03954 7.77203L6.67589 7.62805C7.37485 7.4699 7.72433 7.39083 8.00494 7.17781C8.28555 6.96479 8.46553 6.64194 8.82547 5.99623L9.15316 5.40838Z"/> </svg>
+                    VIP
+                </div>
+                <div class="logo">
+                    <img :src="client.cdn_url + _.find(client.sites, ['site', rightFix.sites[0].site]).site.replace(' DUPLICATE', '') + '.png'">
+                </div>
+                <div class="promo">
+                    <span>{{ _.find(client.sites, ['site', rightFix.sites[0].site]).desc[0] }}</span> <br> {{ _.find(client.sites, ['site', rightFix.sites[0].site]).desc[1] }}
+                </div>
+                <div class="button">Giriş Yap</div>
+            </div>
+        </a>
+        -->
+
+        <h3 style="
+            margin: 0;
+            text-align: center;
+        " class="baslik">GÜVENİLİR SİTELER</h3>
+        <h6 style="
+            margin: 0;
+            font-size: 13px;
+            font-weight: 300;
+            font-family: 'Montserrat';
+            text-align: center;
+            margin-bottom: 3px;
+            display: none;
+        " class="alt-baslik">Kendi oynadığım ve herhangi bir probleminizde yardımcı olabileceğim güvenli siteler</h6>
+
+        <div class="row vip king"  :class="['cat' + king.id, 'banner' + king.grid]">
+            <div class="col" v-if="_.find(client.sites, ['site', site.site])" v-for="(site,siteKey) in _.orderBy(king.sites, [item => parseInt(item.sort)], ['asc'])">
+                <a target="_blank"  :href="_.find(client.sites, ['site', site.site]).url" class="item" :style="'--site-color: ' + _.find(client.sites, ['site', site.site]).color">
+                    <div class="vip l">
+                        <svg viewBox="0 0 24 24" fill="none"> <path d="M9.15316 5.40838C10.4198 3.13613 11.0531 2 12 2C12.9469 2 13.5802 3.13612 14.8468 5.40837L15.1745 5.99623C15.5345 6.64193 15.7144 6.96479 15.9951 7.17781C16.2757 7.39083 16.6251 7.4699 17.3241 7.62805L17.9605 7.77203C20.4201 8.32856 21.65 8.60682 21.9426 9.54773C22.2352 10.4886 21.3968 11.4691 19.7199 13.4299L19.2861 13.9372C18.8096 14.4944 18.5713 14.773 18.4641 15.1177C18.357 15.4624 18.393 15.8341 18.465 16.5776L18.5306 17.2544C18.7841 19.8706 18.9109 21.1787 18.1449 21.7602C17.3788 22.3417 16.2273 21.8115 13.9243 20.7512L13.3285 20.4768C12.6741 20.1755 12.3469 20.0248 12 20.0248C11.6531 20.0248 11.3259 20.1755 10.6715 20.4768L10.0757 20.7512C7.77268 21.8115 6.62118 22.3417 5.85515 21.7602C5.08912 21.1787 5.21588 19.8706 5.4694 17.2544L5.53498 16.5776C5.60703 15.8341 5.64305 15.4624 5.53586 15.1177C5.42868 14.773 5.19043 14.4944 4.71392 13.9372L4.2801 13.4299C2.60325 11.4691 1.76482 10.4886 2.05742 9.54773C2.35002 8.60682 3.57986 8.32856 6.03954 7.77203L6.67589 7.62805C7.37485 7.4699 7.72433 7.39083 8.00494 7.17781C8.28555 6.96479 8.46553 6.64194 8.82547 5.99623L9.15316 5.40838Z"/> </svg>
+                    </div>
+                    <div class="left">
+                        <img v-if="is_mobile" :src="client.cdn_url + _.find(client.sites, ['site', site.site]).site + '.png'" width="150">
+                        <div class="text">
+                            {{ _.find(client.sites, ['site', site.site]).desc[0] }}
+                            <div> <small>SİZE ÖZEL PROMOSYONLAR</small></div>
+                        </div>
+                        <img v-if="!is_mobile" :src="client.cdn_url + _.find(client.sites, ['site', site.site]).site + '.png'" width="150">
+                        <div class="button">GİRİŞ YAP</div>
+                    </div>
+                    <div class="vip">
+                        <svg viewBox="0 0 24 24" fill="none"> <path d="M9.15316 5.40838C10.4198 3.13613 11.0531 2 12 2C12.9469 2 13.5802 3.13612 14.8468 5.40837L15.1745 5.99623C15.5345 6.64193 15.7144 6.96479 15.9951 7.17781C16.2757 7.39083 16.6251 7.4699 17.3241 7.62805L17.9605 7.77203C20.4201 8.32856 21.65 8.60682 21.9426 9.54773C22.2352 10.4886 21.3968 11.4691 19.7199 13.4299L19.2861 13.9372C18.8096 14.4944 18.5713 14.773 18.4641 15.1177C18.357 15.4624 18.393 15.8341 18.465 16.5776L18.5306 17.2544C18.7841 19.8706 18.9109 21.1787 18.1449 21.7602C17.3788 22.3417 16.2273 21.8115 13.9243 20.7512L13.3285 20.4768C12.6741 20.1755 12.3469 20.0248 12 20.0248C11.6531 20.0248 11.3259 20.1755 10.6715 20.4768L10.0757 20.7512C7.77268 21.8115 6.62118 22.3417 5.85515 21.7602C5.08912 21.1787 5.21588 19.8706 5.4694 17.2544L5.53498 16.5776C5.60703 15.8341 5.64305 15.4624 5.53586 15.1177C5.42868 14.773 5.19043 14.4944 4.71392 13.9372L4.2801 13.4299C2.60325 11.4691 1.76482 10.4886 2.05742 9.54773C2.35002 8.60682 3.57986 8.32856 6.03954 7.77203L6.67589 7.62805C7.37485 7.4699 7.72433 7.39083 8.00494 7.17781C8.28555 6.96479 8.46553 6.64194 8.82547 5.99623L9.15316 5.40838Z"/> </svg>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="row diamond clover"  :class="['cat' + vip.id, 'banner' + clover.grid]" style="display: none;">
+            <div class="col" v-if="_.find(client.sites, ['site', site.site])" v-for="(site,siteKey) in _.orderBy(clover.sites, [item => parseInt(item.sort)], ['asc'])">
+                <a target="_blank"  :href="_.find(client.sites, ['site', site.site]).url" class="item" :style="'--site-color: ' + _.find(client.sites, ['site', site.site]).color">
+                    <svg class="icon" viewBox="0 0 32 32" version="1.1"> <path d="M27.673 22.512c-1.335-4.472-7.5-6.972-13.185-8.018 1.102 4.904-0.19 8.2 1.062 12.404 1.335 4.482 6.432 4.718 7.396 0.396 3.484 3.202 5.979-0.587 4.727-4.782v0zM3.211 18.719c2.608-3.377 7.070-5.365 12.123-3.545-2.401 5.629-0.687 9.648-3.117 12.749-2.591 3.305-7.047 1.245-6.484-2.943-4.026 1.236-4.924-3.149-2.522-6.261zM10.149 2.692c4.181 2.417 5.388 7.335 5.1 13.008-5.661-3.251-7.287-0.387-11.363-2.073-4.471-1.849-3.5-7.525 0.719-7.423-2.792-4.235 1.621-5.779 5.543-3.512zM21.565 3.127c-4.429 1.107-6.606 6.399-6.615 12.311 6.15-1.522 8.49 2.582 12.73 1.544 4.52-1.107 4.016-6.766-0.675-8.044 2.856-3.427-1.213-6.867-5.44-5.81v0z"/> </svg>
+                    <div class="content">
+                        <div class="left">
+                            <img :src="client.cdn_url + _.find(client.sites, ['site', site.site]).site + '.png'" width="150">
+                            <div class="text">
+                                {{ _.find(client.sites, ['site', site.site]).desc[0] }}
+                                <div> <small>SİZE ÖZEL PROMOSYONLAR</small></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="button">GİRİŞ YAP</div>
+                </a>
+            </div>
+        </div>
+        <div class="row vip"  :class="['cat' + vip.id, 'banner' + vip.grid]"  style="display: none">
+            <div class="col" v-if="_.find(client.sites, ['site', site.site])" v-for="(site,siteKey) in _.orderBy(vip.sites, [item => parseInt(item.sort)], ['asc'])">
+                <a target="_blank"  :href="_.find(client.sites, ['site', site.site]).url" class="item" :style="'--site-color: ' + _.find(client.sites, ['site', site.site]).color">
+                    <div class="left">
+                        <img :src="client.cdn_url + _.find(client.sites, ['site', site.site]).site + '.png'" width="150">
+                        <div class="text">
+                            {{ _.find(client.sites, ['site', site.site]).desc[0] }}
+                            <div> <small>SİZE ÖZEL PROMOSYONLAR</small></div>
+                        </div>
+                        <div class="button">GİRİŞ YAP</div>
+                    </div>
+                    <div class="vip">
+                        <svg viewBox="0 0 24 24" fill="none"> <path d="M9.15316 5.40838C10.4198 3.13613 11.0531 2 12 2C12.9469 2 13.5802 3.13612 14.8468 5.40837L15.1745 5.99623C15.5345 6.64193 15.7144 6.96479 15.9951 7.17781C16.2757 7.39083 16.6251 7.4699 17.3241 7.62805L17.9605 7.77203C20.4201 8.32856 21.65 8.60682 21.9426 9.54773C22.2352 10.4886 21.3968 11.4691 19.7199 13.4299L19.2861 13.9372C18.8096 14.4944 18.5713 14.773 18.4641 15.1177C18.357 15.4624 18.393 15.8341 18.465 16.5776L18.5306 17.2544C18.7841 19.8706 18.9109 21.1787 18.1449 21.7602C17.3788 22.3417 16.2273 21.8115 13.9243 20.7512L13.3285 20.4768C12.6741 20.1755 12.3469 20.0248 12 20.0248C11.6531 20.0248 11.3259 20.1755 10.6715 20.4768L10.0757 20.7512C7.77268 21.8115 6.62118 22.3417 5.85515 21.7602C5.08912 21.1787 5.21588 19.8706 5.4694 17.2544L5.53498 16.5776C5.60703 15.8341 5.64305 15.4624 5.53586 15.1177C5.42868 14.773 5.19043 14.4944 4.71392 13.9372L4.2801 13.4299C2.60325 11.4691 1.76482 10.4886 2.05742 9.54773C2.35002 8.60682 3.57986 8.32856 6.03954 7.77203L6.67589 7.62805C7.37485 7.4699 7.72433 7.39083 8.00494 7.17781C8.28555 6.96479 8.46553 6.64194 8.82547 5.99623L9.15316 5.40838Z"/> </svg>
+                        VIP
+                    </div>
+                </a>
+            </div>
+        </div>
+        <script>
+            function click_say(e) {
+                gtag('event', 'click', {
+                    'event_category': 'button',
+                    'event_label': e.getAttribute('site')
+                });
+            }
+        </script>
+        <div class="row diamond"  :class="['cat' + vip.id, 'banner' + diamond.grid]">
+            <div class="col" v-if="_.find(client.sites, ['site', site.site])" v-for="(site,siteKey) in _.orderBy(diamond.sites, [item => parseInt(item.sort)], ['asc'])" >
+                <a target="_blank" onclick="click_say(this)" :site="_.find(client.sites, ['site', site.site]).site"  :href="_.find(client.sites, ['site', site.site]).url" class="item" v-bind:style="{
+    '--site-color': _.find(client.sites, ['site', site.site]).color,
+    alignItems: (_.find(client.sites, ['site', site.site]).button_yukari ? 'normal' : 'center')
+  }">
+                    <div class="content">
+                        <div class="icon" v-bind:style="{ marginLeft: _.find(client.sites, ['site', site.site]).elmas ? '-5px' : '0px', marginRight: _.find(client.sites, ['site', site.site]).elmas ? '0px' : '5px'  }">
+                            <svg v-if="!_.find(client.sites, ['site', site.site]).elmas" viewBox="0 0 512 512" xml:space="preserve"> <path d="M511.985,194.034c0.017-2.515-0.654-5.029-2.054-7.225L425.782,54.76  c-0.038-0.061-0.085-0.114-0.123-0.174c-0.032-0.048-0.054-0.1-0.086-0.146c-0.066-0.098-0.147-0.183-0.216-0.279  c-0.202-0.281-0.411-0.555-0.63-0.816c-0.107-0.127-0.216-0.252-0.329-0.376c-0.249-0.275-0.508-0.535-0.776-0.784  c-0.096-0.089-0.187-0.181-0.284-0.265c-0.76-0.668-1.585-1.24-2.458-1.708c-0.1-0.053-0.202-0.098-0.303-0.149  c-0.337-0.17-0.681-0.328-1.03-0.468c-0.147-0.06-0.296-0.114-0.445-0.169c-0.328-0.118-0.66-0.222-0.995-0.315  c-0.146-0.04-0.292-0.084-0.439-0.119c-0.472-0.113-0.948-0.206-1.429-0.267c-0.005,0-0.009-0.001-0.015-0.003  c-0.502-0.062-1.007-0.089-1.514-0.093c-0.04,0-0.078-0.007-0.118-0.007H255.999H97.409c-4.398,0-8.511,2.179-10.981,5.818  c-2.47,3.64-2.977,8.267-1.352,12.355l45.255,113.875H37.457l29.313-46.001c3.939-6.182,2.122-14.385-4.06-18.324  c-6.182-3.939-14.384-2.123-18.324,4.06L2.069,186.81c-1.403,2.2-2.074,4.717-2.054,7.236c-0.162,3.486,1.033,7.031,3.626,9.761  l242.738,255.441c0.072,0.076,0.151,0.139,0.224,0.212c0.077,0.077,0.145,0.161,0.223,0.236c0.098,0.093,0.203,0.173,0.303,0.263  c0.161,0.145,0.321,0.287,0.487,0.422c0.183,0.15,0.37,0.291,0.559,0.429c0.17,0.125,0.34,0.248,0.515,0.364  c0.199,0.131,0.402,0.252,0.605,0.372c0.173,0.101,0.344,0.204,0.52,0.297c0.218,0.115,0.441,0.218,0.664,0.32  c0.17,0.078,0.338,0.159,0.511,0.23c0.24,0.098,0.484,0.18,0.729,0.264c0.162,0.056,0.322,0.117,0.487,0.165  c0.265,0.08,0.535,0.141,0.804,0.203c0.147,0.035,0.293,0.076,0.443,0.105c0.301,0.058,0.604,0.098,0.908,0.135  c0.121,0.015,0.242,0.038,0.362,0.05c0.425,0.041,0.851,0.064,1.277,0.064h0.001h0.001c0.425,0,0.849-0.023,1.273-0.062  c0.119-0.012,0.239-0.036,0.358-0.05c0.303-0.037,0.605-0.076,0.905-0.134c0.15-0.029,0.297-0.07,0.446-0.105  c0.267-0.061,0.534-0.122,0.796-0.2c0.165-0.049,0.326-0.11,0.488-0.165c0.242-0.082,0.483-0.163,0.721-0.26  c0.174-0.07,0.344-0.153,0.515-0.23c0.22-0.101,0.439-0.2,0.656-0.315c0.178-0.093,0.35-0.196,0.524-0.297  c0.202-0.118,0.402-0.236,0.6-0.366c0.175-0.115,0.345-0.239,0.515-0.362c0.188-0.137,0.374-0.276,0.557-0.425  c0.165-0.134,0.324-0.273,0.483-0.415c0.1-0.089,0.206-0.169,0.304-0.261c0.08-0.076,0.149-0.159,0.226-0.238  c0.073-0.073,0.151-0.135,0.223-0.21l122.146-127.72c5.066-5.297,4.879-13.698-0.418-18.765c-5.298-5.067-13.699-4.877-18.765,0.418  l-73.842,77.211l79.323-183.21h94.601l-36.481,38.638c-5.033,5.33-4.791,13.73,0.539,18.761c2.564,2.422,5.84,3.622,9.108,3.622  c3.525,0,7.042-1.395,9.653-4.161l56.933-60.299C510.965,201.045,512.15,197.509,511.985,194.034z M255.999,83.044l78.675,97.626  h-157.35L255.999,83.044z M137.964,207.214l79.065,182.616L43.495,207.214H137.964z M417.34,90.907l57.203,89.764h-92.875  L417.34,90.907z M395.033,75.165l-36.581,92.048l-74.611-92.048H395.033z M228.158,75.165l-74.611,92.048l-36.581-92.048H228.158z   M255.999,413.03l-88.797-205.094h177.595L255.999,413.03z"/> </svg>
+                            <img v-if="_.find(client.sites, ['site', site.site]).elmas" class="slide-fwd-center" :src="client.cdn_url + _.find(client.sites, ['site', site.site]).elmas">
+                        </div>
+
+                        <div class="left">
+                            <img :src="client.cdn_url + _.find(client.sites, ['site', site.site]).site + '.png'" width="150">
+                            <div class="text" style="font-family: 'Bebas Neue'; letter-spacing: 1.5px; ">
+                                <span class="font-size-x-small" v-if="_.find(client.sites, ['site', site.site]).promo_code">Promo Code:</span>
+                                <span>{{_.find(client.sites, ['site', site.site]).promo_code}}</span>
+                                <span style="font-size:small" v-if="_.find(client.sites, ['site', site.site]).promo_code2">
+                                    {{_.find(client.sites, ['site', site.site]).promo_code2}}
+                                </span>
+                                <div>
+                                    <small v-if="_.find(client.sites, ['site', site.site]).promo_code && _.find(client.sites, ['site', site.site]).desc[0].includes('CANLI')" class="text-shadow">
+                                        {{ _.find(client.sites, ['site', site.site]).desc[0] }}
+                                    </small>
+                                    <small v-if="!_.find(client.sites, ['site', site.site]).promo_code || !_.find(client.sites, ['site', site.site]).desc[0].includes('CANLI')">
+                                        {{ _.find(client.sites, ['site', site.site]).desc[0] }}
+                                    </small>
+                                </div>
+                                <!-- PROMO KODU YOKSA -->
+                                <div v-if="!_.find(client.sites, ['site', site.site]).promo_code">
+                                    <small v-if="_.find(client.sites, ['site', site.site]).promo_code_yok && _.find(client.sites, ['site', site.site]).promo_code_yok.includes('CANLI')" class="text-shadow">
+                                        {{ _.find(client.sites, ['site', site.site]).promo_code_yok }}
+                                    </small>
+                                    <small v-if="!_.find(client.sites, ['site', site.site]).promo_code_yok || !_.find(client.sites, ['site', site.site]).promo_code_yok.includes('CANLI')">
+                                        {{ _.find(client.sites, ['site', site.site]).promo_code_yok }}
+                                    </small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="button" v-bind:style="{fontSize: (_.find(client.sites, ['site', site.site]).miktar.indexOf('₺') > -1) ? '16px' : '13px'}">
+                        {{_.find(client.sites, ['site', site.site]).miktar}}
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="row normal"  :class="['cat' + list.id, 'banner' + list.grid]" style="display: none;">
+            <div class="col" v-if="_.find(client.sites, ['site', site.site])" v-for="(site,siteKey) in _.orderBy(list.sites, [item => parseInt(item.sort)], ['asc'])">
+                <a target="_blank"  :href="_.find(client.sites, ['site', site.site]).url" class="item" :style="'--site-color: ' + _.find(client.sites, ['site', site.site]).color">
+                    <div class="top">
+                        <img :src="client.cdn_url + _.find(client.sites, ['site', site.site]).site + '.png'" width="150">
+                    </div>
+                    <div class="text">
+                        <span>{{ _.find(client.sites, ['site', site.site]).desc[0] }}</span>
+                    </div>
+                    <div class="button">GİRİŞ YAP</div>
+                </a>
+            </div>
+        </div>
+        <!--
+        <div v-if="bottomFix">
+            <div class="bottom-fixed" v-show="bottomShow" v-if="bottomActive == bottomKey" :style="'border-color: ' + _.find(client.sites, ['site', bottom.site]).color" v-for="(bottom, bottomKey) in _.orderBy(bottomFix.sites, [bottom => parseInt(bottom.sort)], ['asc'])" :key="bottomKey" >
+                <div class="button">
+                    <div class="close" @click="bottomShow = false">
+                        <svg viewBox="0 0 24 24" fill="none"> <g id="Edit / Close_Circle"> <path id="Vector" d="M9 9L11.9999 11.9999M11.9999 11.9999L14.9999 14.9999M11.9999 11.9999L9 14.9999M11.9999 11.9999L14.9999 9M12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12C21 16.9706 16.9706 21 12 21Z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g> </svg>
+                    </div>
+                </div>
+                <div class="logo">
+                    <img :src="client.cdn_url + _.find(client.sites, ['site', bottom.site]).site + '.png'" width="150">
+                </div>
+                <div class="center" >
+                    <h1 :style="'color: ' + _.find(client.sites, ['site', bottom.site]).color">{{ _.find(client.sites, ['site', bottom.site]).desc[0] }}</h1>
+                    <p>{{ _.find(client.sites, ['site', bottom.site]).desc[1] }}</p>
+                </div>
+                <a target="_blank" :href="_.find(client.sites, ['site', bottom.site]).url" :style="'background: ' + _.find(client.sites, ['site', bottom.site]).color" target="_blank">
+                    ŞİMDİ GİRİŞ YAP
+                </a>
+            </div>
+        </div>
+        -->
+
+        <!-- ASAGIDAKI OVERLAY ILE BAGLANTILI
+        <div v-if="!_.isNull(notifyFix)">
+            <div class="notify-fixed" v-show="notifyShow" v-if="notifyActive == notifyKey" :style="'border-color: ' + _.find(client.sites, ['site', notify.site]).color" v-for="(notify, notifyKey) in _.orderBy(notifyFix.sites, [notify => parseInt(notify.sort)], ['asc'])" :key="notifyKey" >
+                <div class="button">
+                    <div class="close" @click="notifyShow = false">
+                        <svg viewBox="0 0 24 24" fill="none"> <g id="Edit / Close_Circle"> <path id="Vector" d="M9 9L11.9999 11.9999M11.9999 11.9999L14.9999 14.9999M11.9999 11.9999L9 14.9999M11.9999 11.9999L14.9999 9M12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12C21 16.9706 16.9706 21 12 21Z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g> </svg>
+                    </div>
+                </div>
+                <div class="logo">
+                    <img :src="client.cdn_url + _.find(client.sites, ['site', notify.site]).site + '.png'" width="150">
+                </div>
+                <h3 style="font-size:12px;margin: 0px;margin-top: 10px;">SİZE BİR MESAJI VAR !</h3>
+                <div class="center" style="margin: 0px;" >
+                    <h1 style="margin: 0px;"  :style="'color: ' + _.find(client.sites, ['site', notify.site]).color">{{ _.find(client.sites, ['site', notify.site]).desc[0] }}</h1>
+                </div>
+                <small style="margin-bottom: 5px; opacity: 0.5;">Şimdi Yararlanın!</small>
+                <a target="_blank" :href="_.find(client.sites, ['site', notify.site]).url" :style="'background: ' + _.find(client.sites, ['site', notify.site]).color" target="_blank">
+                    ŞİMDİ GİRİŞ YAP
+                </a>
+            </div>
+        </div>
+        -->
+
+    </div>
+    <!--
+    <div class="overlay" v-show="!_.isEmpty(notifyFix.sites)" v-if="notifyShow"></div>
+    -->
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.17/vue.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/lodash@4.17.20/lodash.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+<script>
+    var app = new Vue({
+        el: '#app-v-page',
+        mounted(){
+            window.onload = function() {
+                document.getElementById('preloader').style.display = 'none';
+                document.getElementById('app-v-page').style.display = 'block';
+
+                var nav = document.querySelector('#app-v-page');
+                var navTop = nav.offsetTop;
+
+                /*
+                function navFixed(e) {
+                    if(window.scrollY - 75 >= navTop) {
+                        document.querySelector('#app-v-page').classList.add('is-fixed');
+                    } else {
+                        document.querySelector('#app-v-page').classList.remove('is-fixed');
+                    }
+                }
+                window.addEventListener('scroll', navFixed);
+                */
+            };
+        },
+        created(){
+            this.loading = true;
+            axios.get('https://bolbonusverensiteler.com/data.json?v=0.0.5')
+                .then((response) => {
+                    this.client = response.data.html
+                    this.king = _.find(this.client.categories, ['id', 1710467155101]);
+                    this.clover = _.find(this.client.categories, ['id', 1710467161452]);
+                    this.strip = _.find(this.client.categories, ['id', 1710467148324]);
+                    this.leftFix = _.find(this.client.categories, ['id', 1705945072794]);
+                    this.rightFix = _.find(this.client.categories, ['id', 1705945082063]);
+                    this.slider = _.find(this.client.categories, ['id', 1706090032063]);
+                    this.vip = _.find(this.client.categories, ['id', 1705945154693]);
+                    this.diamond = _.find(this.client.categories, ['id', 1705945112098]);
+                    this.bottomFix = _.find(this.client.categories, ['id', 1705945105481]);
+                    this.notifyFix = _.find(this.client.categories, ['id', 1708437128106]);
+                    this.list = _.find(this.client.categories, ['id', 1705945167988]);
+                    this.loading = false;
+                    setTimeout(() => {
+                        const swiper = new Swiper('.swiper-container', {
+                            slidesPerView: 1,
+                            autoplay: true,
+                            pagination: {
+                                el: '.swiper-pagination',
+                                type: 'fraction',
+                            },
+                            navigation: {
+                                nextEl: '.swiper-button-next',
+                                prevEl: '.swiper-button-prev',
+                            },
+                        });
+                    }, 50);
+                    setTimeout(() => {
+                        this.notifyShow = true;
+                        if(this.notifyFix != null && this.notifyFix.sites != null){
+                            setInterval(() => {
+                                _.forEach(this.notifyFix.sites,((site,siteKey) => {
+                                    if(parseInt(_.size(this.notifyFix.sites) - 1) == parseInt(this.notifyActive)){
+                                        this.notifyActive = 0;
+                                        return false
+                                    }else if(this.notifyActive < siteKey){
+                                        this.notifyActive = parseInt(siteKey);
+                                        return false;
+                                    }
+                                    console.log(this.notifyFix)
+                                }));
+                            }, 5000);
+                        }
+                    }, 2500);
+                    if(this.bottomFix != null){
+                        setInterval(() => {
+                            _.forEach(this.bottomFix.sites,((site,siteKey) => {
+                                if(parseInt(_.size(this.bottomFix.sites) - 1) == parseInt(this.bottomActive)){
+                                    this.bottomActive = 0;
+                                    return false
+                                }else if(this.bottomActive < siteKey){
+                                    this.bottomActive = parseInt(siteKey);
+                                    return false;
+                                }
+                            }));
+                        }, 3000);
+                    }
+                    if(!_.isNull(this.client.background)){
+                        document.body.style.backgroundImage = 'url(' + this.client.background + ')'
+                    }
+
+                })
+        },
+        data() {
+            return {
+                king:null,
+                clover:null,
+                strip:null,
+                leftFix:null,
+                rightFix:null,
+                bottomFix:null,
+                notifyFix:null,
+                slider:null,
+                loading:false,
+                bottomActive:0,
+                bottomShow:true,
+                notifyShow:false,
+                notifyActive:0,
+                list:null,
+                is_mobile: Math.min(window.screen.width, window.screen.height) < 768 || navigator.userAgent.indexOf("Mobi") > -1,
+                client:{},
+            };
+        },
+    })
+</script>
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        // instagram linki mobilde app açar yada webte direk gider şeklinde duruma göre ayarla
+        /*
+        function isMobile() {
+            var userAgent = navigator.userAgent || navigator.vendor || window.opera;
+            if (/android/i.test(userAgent)) {
+                return true;
+            }
+            if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
+                return true;
+            }
+            return false;
+        }
+        if (!isMobile()) {
+            is_element_load = setInterval(function(){
+                let e = document.querySelector('.social-button.instagram');
+                if (e) {
+                    e.setAttribute('href','https://www.instagram.com/');
+                    clearInterval(is_element_load);
+                }
+            },50)
+        }
+        */
+
+        // tarafbet 100$ güncel kur
+        is_element_load = setInterval(function(){
+            let e = document.querySelector('.normal.row a[site="tarafbet"] .button');
+            if (e) {
+                fetch("https://customers.garantibbva.com.tr/internet/digitalpublic/currency-convertor-public/v1/currency-convertor/calculate-price?&operation=0&price=1&currencySource=USD&currencyTarget=TL", {
+                    "credentials": "include",
+                    "headers": {
+                        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0",
+                        "Accept": "application/json",
+                        "Accept-Language": "tr-TR,tr;q=0.8,en-US;q=0.5,en;q=0.3",
+                        "Content-Type": "application/json",
+                        "channel": "Internet",
+                        "ip": "127.0.0.1",
+                        "dialect": "TR",
+                        "guid": "10b3fa24471f427484399c8fe58ac9ec",
+                        "tenant-company-id": "GAR",
+                        "x-client-trace-id": "10b3fa24471f427484399c8fe58ac9ec",
+                        "client-session-id": "5bd6-743c-c38c-4cc7-9306",
+                        "client-type": "ArkClient",
+                        "Authorization": "",
+                        "state": "",
+                        "client-id": "DslahJXaDW59ibNZppCm",
+                        "tenant-geolocation": "TUR",
+                        "tenant-app-id": "",
+                        "Sec-Fetch-Dest": "empty",
+                        "Sec-Fetch-Mode": "cors",
+                        "Sec-Fetch-Site": "same-site"
+                    },
+                    "referrer": "https://webforms.garantibbva.com.tr/",
+                    "method": "GET",
+                    "mode": "cors"
+                }).then(function(response){
+                    return response.json();
+                }).then(function(response){
+                    try {
+                        bonus = e.innerHTML.replace(/\D/g, '')*1; // buttonun içerisindeki stringten bonusu ayıkla ve int'e çevir
+                        kur = response.calculateResult; // kur'u jsondan ayıkla (eğer ayıklayamazsa try catch mekanizmasına takılacak)
+                        hesap = Math.round(kur*bonus); // kur ile bonusu çarp, round ile en yakın sayıya yuvarla
+                        hesap = hesap.toLocaleString('tr-TR'); // 1.337 ondalık noktalarını ekle
+                        e.innerHTML = '<span class="text1">$'+bonus+'</span><span class="text2">₺'+hesap+'</span>';
+                        e.classList.add('doviz-button'); // hareket animasyonu ekliyoruz
+                    } catch (err) {
+                        console.error('Kur hesaplanamadı.');
+                        console.warn('Kur hesaplanamadı.');
+                        console.log('fetch.response:');
+                        console.log(response);
+                    }
+                });
+                clearInterval(is_element_load);
+            }
+        },50);
+
+
+    });
+
+</script>
+</body>
+</html>
