@@ -161,6 +161,42 @@
         "promo_code": null,
         "promo_code_yok": "%100 İADE BONUSU | ERTESİ GÜN FREESPİNLERİ",
         "slider_img": ""
+      },
+      {
+        "url": "https://go.aff.intr.live/wet95iyh",
+        "desc": [
+          "İnterbahis'te yeni üyelere özel"
+        ],
+        "site": "interbahis",
+        "sort": null,
+        "color": "#d40c0e",
+        "miktar": "100 FS",
+        "promo_code_yok": "100freebet / 100freespin",
+        "slider_img": ""
+      },
+      {
+        "url": "https://sznrd.xyz/afflink",
+        "desc": [
+          "250₺ DENEME BONUSU"
+        ],
+        "site": "sezonbahis",
+        "sort": null,
+        "color": "#be9337",
+        "miktar": "₺250",
+        "promo_code_yok": "%333 HOŞ GELDİN - %100 DİSCOUNT",
+        "slider_img": ""
+      },
+      {
+        "url": "https://is.gd/irtpLj",
+        "desc": [
+          "3000₺ HOSGELDİN BONUS"
+        ],
+        "site": "gallerbahis",
+        "sort": null,
+        "color": "#e2b725",
+        "miktar": "₺3.000",
+        "promo_code_yok": "YÜKSEK KAZANC ORANI",
+        "slider_img": ""
       }
     ],
     "social": {
@@ -255,13 +291,16 @@
             "sort": "1"
           },
           {
-            "site": "vaycasino",
-            "sort": "2"
+            "site": "sezonbahis",
+            "sort": "3"
           },
-
           {
-            "site": "sheratonbet",
+            "site": "gallerbahis",
             "sort": "4"
+          },
+          {
+            "site": "interbahis",
+            "sort": "5"
           }
         ]
       },
