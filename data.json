@@ -197,6 +197,18 @@
         "miktar": "₺3.000",
         "promo_code_yok": "YÜKSEK KAZANC ORANI",
         "slider_img": ""
+      },
+      {
+        "url": "https://cutt.ly/2rYbLI8s",
+        "desc": [
+          "%30 Hoşgeldin Bonusu! | Çapraz Çekim"
+        ],
+        "site": "esbet",
+        "sort": null,
+        "color": "#ca9537",
+        "miktar": "₺500",
+        "promo_code_yok": "Kat Kuralsız ve Ödüllü VIP Sistemi!",
+        "slider_img": ""
       }
     ],
     "social": {
@@ -292,6 +304,10 @@
           },
           {
             "site": "sezonbahis",
+            "sort": "2"
+          },
+          {
+            "site": "esbet",
             "sort": "3"
           },
           {
