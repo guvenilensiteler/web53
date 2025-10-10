@@ -76,7 +76,7 @@
         "slider_img": ""
       },
       {
-        "url": "https://t2m.io/sofuaff",
+        "url": "https://t2m.io/mersogiris2",
         "desc": [
           "2.000₺ Deneme Bonusu Sınırsız Çekim"
         ],
@@ -123,30 +123,6 @@
         "miktar": "KAYIT OL",
         "elmas": "ana-sponsor.webp",
         "promo_code_yok": "",
-        "slider_img": ""
-      },
-      {
-        "url": "https://t2m.io/2414374",
-        "desc": [
-          "2025 tl deneme bonusu"
-        ],
-        "site": "vaycasino",
-        "sort": null,
-        "color": "#ed312e",
-        "miktar": "₺2.025",
-        "promo_code_yok": "100 milyon tl çekim garantisi",
-        "slider_img": ""
-      },
-      {
-        "url": "https://t2m.io/2414376",
-        "desc": [
-          "2222 FREESPIN"
-        ],
-        "site": "sheratonbet",
-        "sort": null,
-        "color": "#ecc500",
-        "miktar": "2222 FS",
-        "promo_code_yok": "99 ÜLKEDE OTEL GÜVENCESİ",
         "slider_img": ""
       },
       {
@@ -208,6 +184,42 @@
         "color": "#ca9537",
         "miktar": "₺500",
         "promo_code_yok": "Kat Kuralsız ve Ödüllü VIP Sistemi!",
+        "slider_img": ""
+      },
+      {
+        "url": "https://t2m.io/amggiris1",
+        "desc": [
+          "333 TL DENEME BONUSU"
+        ],
+        "site": "amgbahis",
+        "sort": null,
+        "color": "#0092ff",
+        "miktar": "₺333",
+        "promo_code_yok": "YENİ SİTE / RTP ORANI YÜKSEK",
+        "slider_img": ""
+      },
+      {
+        "url": "https://t2m.io/2549222",
+        "desc": [
+          "3 BİN 333 TL DENEME BONUSU"
+        ],
+        "site": "vaycasino",
+        "sort": null,
+        "color": "#ed312e",
+        "miktar": "₺3.333",
+        "promo_code_yok": "TURKIYEDE TEK 100 MILYON TL CEKIM !",
+        "slider_img": ""
+      },
+      {
+        "url": "https://t2m.io/2549436",
+        "desc": [
+          "2222 FREESPIN"
+        ],
+        "site": "sheratonbet",
+        "sort": null,
+        "color": "#ecc500",
+        "miktar": "2222 FS",
+        "promo_code_yok": "70 ULKEDE 200 OTEL GUVENCESI BELGESIZ CEKIM",
         "slider_img": ""
       }
     ],
@@ -303,20 +315,16 @@
             "sort": "1"
           },
           {
-            "site": "sezonbahis",
+            "site": "amgbahis",
             "sort": "2"
           },
           {
-            "site": "esbet",
+            "site": "sheratonbet",
             "sort": "3"
           },
           {
-            "site": "gallerbahis",
+            "site": "vaycasino",
             "sort": "4"
-          },
-          {
-            "site": "interbahis",
-            "sort": "5"
           }
         ]
       },
