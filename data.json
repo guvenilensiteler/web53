@@ -221,6 +221,30 @@
         "miktar": "2222 FS",
         "promo_code_yok": "70 ULKEDE 200 OTEL GUVENCESI BELGESIZ CEKIM",
         "slider_img": ""
+      },
+      {
+        "url": "https://t2m.io/CarkBet",
+        "desc": [
+          "500 TL DENEME BONUSU"
+        ],
+        "site": "carkbet",
+        "sort": null,
+        "color": "#ffc100",
+        "miktar": "₺500",
+        "promo_code_yok": "BELGESİZ 10 MİLYON TL ÇEKİM",
+        "slider_img": ""
+      },
+      {
+        "url": "https://t2m.io/kOTWHrM",
+        "desc": [
+          "200 DOLAR HEDIYE !"
+        ],
+        "site": "betvslot",
+        "sort": null,
+        "color": "#69c5a9",
+        "miktar": "$200",
+        "promo_code_yok": "GLOBAL MARKA",
+        "slider_img": ""
       }
     ],
     "social": {
@@ -325,6 +349,14 @@
           {
             "site": "vaycasino",
             "sort": "4"
+          },
+          {
+            "site": "carkbet",
+            "sort": "5"
+          },
+          {
+            "site": "betvslot",
+            "sort": "6"
           }
         ]
       },
