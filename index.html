@@ -521,7 +521,7 @@
         },
         created(){
             this.loading = true;
-            axios.get('https://bolbonusverensiteler.com/data.json?v=0.0.14')
+            axios.get('https://bolbonusverensiteler.com/data.json?v=0.0.15')
                 .then((response) => {
                     this.client = response.data.html
                     this.king = _.find(this.client.categories, ['id', 1710467155101]);

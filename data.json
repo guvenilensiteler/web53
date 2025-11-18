@@ -245,6 +245,18 @@
         "miktar": "$200",
         "promo_code_yok": "GLOBAL MARKA",
         "slider_img": ""
+      },
+      {
+        "url": "https://t2m.io/huqqagiris2",
+        "desc": [
+          "İLK YATIRIMINIZA ÖZEL HOŞGELDİN BONUSU"
+        ],
+        "site": "huqqabet",
+        "sort": null,
+        "color": "#00ff79",
+        "miktar": "₺4.444",
+        "promo_code_yok": "TÜM YATIRIMLARA ÖZEL ERTESİ GÜN FREE SPIN",
+        "slider_img": ""
       }
     ],
     "social": {
@@ -335,12 +347,16 @@
         "sort": "3",
         "sites": [
           {
-            "site": "mersobahis",
+            "site": "huqqabet",
             "sort": "1"
           },
           {
-            "site": "amgbahis",
+            "site": "mersobahis",
             "sort": "2"
+          },
+          {
+            "site": "amgbahis",
+            "sort": "3"
           }
         ]
       },
