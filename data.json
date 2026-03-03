@@ -76,7 +76,7 @@
         "slider_img": ""
       },
       {
-        "url": "https://t2m.io/mersogiris2",
+        "url": "https://t2m.io/mersogiris3",
         "desc": [
           "2.000₺ Deneme Bonusu Sınırsız Çekim"
         ],
@@ -187,7 +187,7 @@
         "slider_img": ""
       },
       {
-        "url": "https://t2m.io/amggiris1",
+        "url": "https://t2m.io/amggiris3",
         "desc": [
           "333 TL DENEME BONUSU"
         ],
@@ -256,6 +256,18 @@
         "color": "#00ff79",
         "miktar": "₺4.444",
         "promo_code_yok": "TÜM YATIRIMLARA ÖZEL ERTESİ GÜN FREE SPIN",
+        "slider_img": ""
+      },
+      {
+        "url": "https://t2m.io/locagiris2",
+        "desc": [
+          "3000₺ Çekimli deneme bonusu"
+        ],
+        "site": "locabet",
+        "sort": null,
+        "color": "#f5c542",
+        "miktar": "₺3.000",
+        "promo_code_yok": "İlk yatırımınıza özel %50 kayıp bonusu",
         "slider_img": ""
       }
     ],
@@ -347,16 +359,20 @@
         "sort": "3",
         "sites": [
           {
-            "site": "huqqabet",
+            "site": "mersobahis",
             "sort": "1"
           },
           {
-            "site": "mersobahis",
+            "site": "amgbahis",
             "sort": "2"
           },
           {
-            "site": "amgbahis",
+            "site": "huqqabet",
             "sort": "3"
+          },
+          {
+            "site": "locabet",
+            "sort": "4"
           }
         ]
       },
