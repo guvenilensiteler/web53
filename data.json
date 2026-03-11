@@ -269,6 +269,18 @@
         "miktar": "₺3.000",
         "promo_code_yok": "İlk yatırımınıza özel %50 kayıp bonusu",
         "slider_img": ""
+      },
+      {
+        "url": "https://slotsporaff.com/register/47384",
+        "desc": [
+          "500 FREE SPIN DENEME BONUSU"
+        ],
+        "site": "slotspor",
+        "sort": null,
+        "color": "#02d1c7",
+        "miktar": "500 FS",
+        "promo_code_yok": "%5 HAFTALIK TELAFİ BONUSU",
+        "slider_img": ""
       }
     ],
     "social": {
@@ -373,6 +385,10 @@
           {
             "site": "locabet",
             "sort": "4"
+          },
+          {
+            "site": "slotspor",
+            "sort": "5"
           }
         ]
       },
